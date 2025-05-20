@@ -1,6 +1,6 @@
 # Smart Pointers
 
-Привет! Это мой личный проект на C++, в котором я самостоятельно реализовал и изучил работу разных видов умных указателей: от простого `UniquePtr` до `IntrusivePtr` и механизма `enable_shared_from_this`. Цель — глубже понять управление ресурсами и lifetime-менеджмент в современном C++.
+Это проект на C++, в котором реализованы разные виды умных указателей: от `UniquePtr` до `IntrusivePtr` и механизма `enable_shared_from_this`. 
 
 ---
 
@@ -27,5 +27,19 @@
 
 ---
 
-## Структура проекта
+## Требования
 
+- C++17 или новее  
+- CMake ≥ 3.10  
+- Компилятор с поддержкой C++17 (GCC, Clang, MSVC)
+
+---
+
+## Сборка и запуск
+
+```bash
+git clone https://github.com/FoggGhostt/Smart-Pointers.git
+cd Smart-Pointers
+mkdir build && cd build
+cmake ..
+cmake --build .
